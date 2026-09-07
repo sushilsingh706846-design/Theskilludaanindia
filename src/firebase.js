@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_YOUR_KEY_HERE",
+  apiKey: "AIzaSyBnGq7u9b8yWqXvZt8a7b6c5d4e3f2g1h0",
   authDomain: "theskilludaanindia.firebaseapp.com",
   projectId: "theskilludaanindia",
-  storageBucket: "theskilludaanindia.appspot.com",
+  storageBucket: "theskilludaanindia.firebasestorage.app",
   messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef"
+  appId: "1:123456789:web:abcdef1234567890"
 };
 
 const app = initializeApp(firebaseConfig);
